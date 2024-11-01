@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(25deg, #6e16d1, #f6f85e);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* index php for admin start */
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+
+.login-card {
+  background: transparent;
+  border-radius: 20px; 
+  border: 1px solid #000; 
+  box-shadow: 0 10px 40px rgba(236, 232, 174, 0.9); 
+  padding: 40px; 
+  text-align: center; 
+  backdrop-filter: blur(10px);
+}
+
+
+.login-card h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #181c1d;
+}
+
+.login-card p {
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #252525;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000; 
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #f8f3a4; 
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.options a {
+  color: #014070;
+  text-decoration: none;
+  font-size: 14.5px;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  background-color: #0033cc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #0056b3;
+}
+
+.signup-link {
+  margin-top: 15px;
+  color: #1a1a1a;
+}
+
+.signup-link a {
+  color: #014070;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+
+/* sign-up php for admin start */
+
+.sign-up-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 5px;
+}
+
+.sign-up-card {
+  background: transparent;
+  border-radius: 20px; 
+  border: 1px solid #000; 
+  box-shadow: 0 10px 40px rgba(236, 232, 174, 0.9); 
+  padding: 40px; 
+  text-align: center; 
+  backdrop-filter: blur(10px);
+}
+
+
+.sign-up-card h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #181c1d;
+}
+
+.sign-up-card p {
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+/* forgot-password php for admin start */
+
+.forgot-password-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 5px;
+}
+
